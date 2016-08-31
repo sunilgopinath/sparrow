@@ -45,7 +45,6 @@ async function printPublicGists(){
 
   try {
     var gists = await get('https://api.github.com/gists/public');
-    console.log("hello " + gists);
     // now you can write this like syncronous code!
     gists.forEach(function(gist){
       console.log(gist.description);
