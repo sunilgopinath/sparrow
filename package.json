@@ -1,0 +1,31 @@
+{
+  "name": "sparrow",
+  "version": "1.0.0",
+  "description": "fun with es7, node, babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bootstrap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilgopinath/sparrow.git"
+  },
+  "author": "Sunil Gopinath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunilgopinath/sparrow/issues"
+  },
+  "homepage": "https://github.com/sunilgopinath/sparrow#readme",
+  "dependencies": {
+    "babel-core": "^6.14.0",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-preset-es2015": "^6.14.0",
+    "hapi": "^15.0.2",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.13.0"
+  }
+}
